@@ -1,0 +1,21 @@
+.about{
+    background-color: rgb(5, 5, 68);
+    color: white;
+}
+.aboutlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutlist li{
+    padding: 20px;
+    text-decoration: none;
+}
+.aboutlist li a{
+    text-decoration: none;
+    color: white;
+}
+.aboutlist li:hover{
+    background-color: var(--dark-orange);
+    color: white;
+}
