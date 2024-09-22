@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Profile from "./Profile";
@@ -18,3 +19,18 @@ function Home() {
 }
 
 export default Home;
+=======
+import React from "react";
+import Navbar from "../Navbar/Navbar";
+import Profile from "./Profile";
+function Home() {
+  return (
+    <>
+      <Navbar />
+      <Profile />
+    </>
+  );
+}
+
+export default Home;
+>>>>>>> b4a6f63830a956d2b52b8a83bbd8117089997b54
